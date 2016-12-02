@@ -9,6 +9,7 @@
 	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/language.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.transitions.css" rel="stylesheet">
@@ -55,10 +56,28 @@
                         <li class="scroll"><a href="#sobre">Sobre </a></li>
                         <li class="scroll"><a href="#produtos">Nossos Produtos</a></li>
                         <li class="scroll"><a href="#local"> Localização </a></li>
-                       <li class="scroll"><a href="#get-in-touch">Fale conosco</a></li>                        
+                        <li class="scroll"><a href="#get-in-touch">Fale conosco</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn" id=""></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="#">
+                                    <img border="0" alt="PT-BR" src="images/de.png" width="25" height="25">
+                                    PT-BR
+                                    </a>
+                                    <a href="#">
+                                    <img border="0" alt="EN" src="images/uk.png" width="25" height="25">
+                                    EN
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+
                     </ul>
                     
                 </div>
+
             </div><!--/.container-->
         </nav><!--/nav-->
     </header><!--/header-->
@@ -416,6 +435,7 @@ ing elit, sed do eiusmod .</p>
     <script src="js/main.js"></script>
 	<script src="js/scrolling-nav.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/language.js"></script>
 <script>
 
     $(document).ready(function($) {
