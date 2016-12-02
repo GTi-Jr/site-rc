@@ -1015,3 +1015,9 @@ ul.nostyle i {
 	#animated-number strong{ font-size:17px;}
 	#blog .blog-post.blog-large .entry-thumbnail{ padding-top:0px;}
 	}
+
+#map{
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+}

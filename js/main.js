@@ -1,5 +1,6 @@
 jQuery(function($) {'use strict';
 
+	
 	// Navigation Scroll
 	$(window).scroll(function(event) {
 		Scroll();

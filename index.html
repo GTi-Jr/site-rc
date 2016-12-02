@@ -54,7 +54,7 @@
                         <li class="scroll active"><a href="#home">Inicio </a></li>
                         <li class="scroll"><a href="#sobre">Sobre </a></li>
                         <li class="scroll"><a href="#produtos">Nossos Produtos</a></li>
-                        <li class="scroll"><a href="#aaa"> Localização </a></li>
+                        <li class="scroll"><a href="#local"> Localização </a></li>
                        <li class="scroll"><a href="#get-in-touch">Fale conosco</a></li>                        
                     </ul>
                     
@@ -66,28 +66,46 @@
     <section id="main-slider">
         <div class="owl-carousel">
             <div class="item" style="background-image: url(images/bg3.jpg);">
-			                <div class="slider-inner p">
+                 <div class="slider-inner p">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6 text-center">
                                 <div class="carousel-content">
-                                  <br> <br><br><br><br><br><br><br><br>                                   <p><span class="style15">A CEJN é um grupo Sueco, com mais de 60 anos de experiência e presença global,provedor de componentes e sistemas de alto desempenho para todos os tipos de aplicação, desde ar comprimido até gás, equipamentos para ar respirável, fluidos e óleo
-
-hidráulico.</span><br>
-<br>
+                                  <br> <br><br><br><br><br><br><br><br>                                   <p><span class="style15">A CEJN é um grupo Sueco, com mais de 60 anos de experiência e presença global,provedor de componentes e sistemas de alto desempenho para todos os tipos de aplicação, desde ar comprimido até gás, equipamentos para ar respirável, fluidos e óleo hidráulico.</span>
+                                  <br><br>
                                       
-                                    <a class="btn btn-primary btn-lg" href="#produtos"><span class="style6"></span>Conheça nossos produtos</a>                                </div>
+                                    <a class="btn btn-primary btn-lg" href="#produtos"><span class="style6"></span>Conheça nossos produtos</a>         
+                                </div>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </div><!--/.item-->
+
+
+
+            <div class="item" style="background-image: url(images/bg2.jpg);">
+			     <div class="slider-inner p">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <div class="carousel-content">
+                                  <br> <br><br><br><br><br><br><br><br>                                   <p><span class="style15">A HYDAC oferece um extenso programa de fornecimento de produtos da hidráulica, da técnica de comandos eletrônicos, da técnica
+                                    de solenoides, sensores reguladores assim como sensores de fluido, monitoramento de condições e produtos de tratamentos de fluidos. </span>
+                                  <br><br>
+                                      
+                                    <a class="btn btn-primary btn-lg" href="#produtos"><span class="style6"></span>Conheça nossos produtos</a>         
+                                </div>
 									
                             </div>
                         </div>
                     </div>
-                </div>
-				
-				
-				
+                </div>		
             </div><!--/.item-->
-             <div class="item" style="background-image: url(images/bg1.jpg);">
-			 
+            
+            <div class="item" style="background-image: url(images/bg1.jpg);">
+ 
                 <div class="slider-inner">
                     <div class="container">
                         <div class="row">
@@ -96,22 +114,17 @@ hidráulico.</span><br>
                                      <h2 class="style13"></h2>
 									 <br> <br><br><br><br>
                                     <p><span class="style15">A RC Hidropneumática Disponibiliza Mangueiras hidráulicas para baixa, média, alta e super alta pressão <br>
-conforme as normas SAE e DIN de acordo com suas necessidades.</span><br>
-									
-									
-                                    <a class="btn btn-primary btn-lg" href="#produtos">Conheça nossos produtos</a>                                </div>
-									
-                                                            </div>
+                                    conforme as normas SAE e DIN de acordo com suas necessidades.</span><br>
 															
-                            </div>
-							
+                                    <a class="btn btn-primary btn-lg" href="#produtos">Conheça nossos produtos</a>                    
+                                </div>
+                            </div>						
                         </div>
-						
-                    </div>
+					</div>
+				</div>
 					
-          </div>
-            </div><!--/.item-->
-			
+              </div>
+        </div><!--/.item-->
 			
         </div>
         <!--/.owl-carousel-->
@@ -300,7 +313,29 @@ ing elit, sed do eiusmod .</p>
             
         </div>
     </section><!--/#produtos-->
-         
+    
+
+    <section id="local">
+        <div id="map"></div>
+        <script>
+      function initMap() {
+        var uluru = {lat: -3.804694, lng: -38.572667};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCd5C3QoNkqUQDDJ--AvaJCUAHEuSMREcM&callback=initMap">
+    </script>
+
+    </section>
+
 
     <section id="get-in-touch">
         <div class="container">
