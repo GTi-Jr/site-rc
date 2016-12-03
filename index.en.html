@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>RC Hidropneumática</title>
-	<!-- core CSS -->
+    <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/language.css" rel="stylesheet">
@@ -23,14 +23,14 @@
 <!--
 .style6 {color: #000000}
 .style13 {
-	font-size: 18px;
-	color: #000000;
-	font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
 }
 .style15 {color: #FFFFFF; font-size: 18px; font-weight: bold; }
 -->
     </style>
-	
+    
 </head><!--/head-->
 
 
@@ -46,38 +46,38 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.en.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
                     
                 </div>
-                             				
+                                            
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Home </a></li>
-                        <li class="scroll"><a href="#sobre">About </a></li>
-                        <li class="scroll"><a href="#produtos">Our Products</a></li>
-                        <li class="scroll"><a href="#local"> Localization </a></li>
-                        <li class="scroll"><a href="#get-in-touch">Contact Us</a></li>
-<!--                         <li class="scroll">
-                                <div>
-                                    <a href="#">
-                                    <img border="0" alt="PT-BR" src="images/icons/br.png" width="35" height="23.5">
-                                    PT-BR
-                                    </a>
-                                    <br>
-                                    <a href="#">
-                                    <img border="0" alt="EN" src="images/icons/uk.png" width="35" height="23.5">
-                                    EN
-                                    </a>
-                                </div>
-                        </li>
- -->                            
+                        <li class="scroll active"><a href="#home">Inicio </a></li>
+                        <li class="scroll"><a href="#sobre">Sobre </a></li>
                         <li class="scroll">
-                            <p>
-                            <div class="dropdown">
-                                <button onclick="myFunction()" class="dropbtn" id="language">
+                            <div class="product-dropdown">
+                                <button onclick="dropDownProducts()" class="dropbtn" id="product">
+                                Nossos Produtos
+                                </button>
+                                    <div id="products" class="product-content">
+                                        <a href="#produtos">Linha de produtos</a>
+                                        <a href="products/mangueiras.html">Mangueiras</a>
+                                        <a href="products/filtragem.html">Hidráulica</a>
+                                        <a href="products/pneumatica.html">Pneumática</a>
+                                        <a href="products/acessorios.html">Acessórios</a>
+                                    </div>
+                            </div>
+                        </li>
+                        
+                        <li class="scroll"><a href="#local"> Localização </a></li>
+                        <li class="scroll"><a href="#contato">Fale conosco</a></li>
+                            
+                        <li class="scroll">
+                            <div class="language-dropdown">
+                                <button onclick="dropDownLanguages()" class="dropbtn" id="language">
                                 EN
                                 </button>
-                                    <div id="myDropdown" class="dropdown-content">
+                                    <div id="languages" class="language-content">
                                         <a href="index.html">
                                             <img border="0" alt="PT-BR" src="images/icons/br.png" width="35" height="23.5">
                                             PT-BR
@@ -89,7 +89,6 @@
                                         </a>
                                     </div>
                             </div>
-                            </p>
                         </li>
                        
                     </ul>
@@ -123,22 +122,22 @@
 
 
             <div class="item" style="background-image: url(images/bg2.jpg);">
-			     <div class="slider-inner p">
+                 <div class="slider-inner p">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 text-center">
                                 <div class="carousel-content">
                                   <br> <br><br><br><br><br><br><br><br>                                   <p><span class="style15">A HYDAC oferece um extenso programa de fornecimento de produtos da hidráulica, da técnica de comandos eletrônicos, da técnica
-                                    de solenoides, sensores reguladores assim como sensores de fluido, monitoramento de condições e produtos de tratamentos de fluidos. </span>
+                                  e solenoides, sensores reguladores assim como sensores de fluido, monitoramento de condições e produtos de tratamentos de fluidos. </span>
                                   <br><br>
                                       
                                     <a class="btn btn-primary btn-lg" href="#produtos"><span class="style6"></span>Conheça nossos produtos</a>         
                                 </div>
-									
+                                    
                             </div>
                         </div>
                     </div>
-                </div>		
+                </div>      
             </div><!--/.item-->
             
             <div class="item" style="background-image: url(images/bg1.jpg);">
@@ -149,27 +148,27 @@
                             <div class="col-sm-12 text-center">
                                 <div class="carousel-content">
                                      <h2 class="style13"></h2>
-									 <br> <br><br><br><br>
+                                     <br> <br><br><br><br>
                                     <p><span class="style15">A RC Hidropneumática Disponibiliza Mangueiras hidráulicas para baixa, média, alta e super alta pressão <br>
                                     conforme as normas SAE e DIN de acordo com suas necessidades.</span><br>
-															
+                                                            
                                     <a class="btn btn-primary btn-lg" href="#produtos">Conheça nossos produtos</a>                    
                                 </div>
-                            </div>						
+                            </div>                      
                         </div>
-					</div>
-				</div>
-					
+                    </div>
+                </div>
+                    
               </div>
         </div><!--/.item-->
-			
+            
         </div>
         <!--/.owl-carousel-->
        </section><!--/#main-slider-->
 
     
 
-	<section id="sobre">
+    <section id="sobre">
         <div class="container">
 
             <div class="section-header">
@@ -188,9 +187,9 @@
                             <div class="media-body">
                                 <h4 class="media-heading">Missão</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur 
-ing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipis
-ing elit, sed do eiusmod .</p>
+                                ing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipis
+                                ing elit, sed do eiusmod .</p>
                             </div>
                         </div>
                     </div><!--/.col-md-4-->
@@ -258,7 +257,7 @@ ing elit, sed do eiusmod .</p>
                     <div class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0ms">
                         <div class="animated-number" data-digit="2600" data-duration="1000"></div>
                         <strong>Clientes </strong>
-                    </div>	
+                    </div>  
                 </div>
                 <div class="col-sm-3 col-xs-6">
                     <div class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0ms">
@@ -312,7 +311,7 @@ ing elit, sed do eiusmod .</p>
                 <div class="col-sm-6 col-md-3">
                     <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
                         <div class="team-img">
-                            <a class="" href="products/filtragem3.html"><img src="images/filtragem3.jpg" alt="">
+                            <a class="" href="products/filtragem.html"><img src="images/filtragem3.jpg" alt="">
                             </a>
                         </div>
                       <div class="team-info">
@@ -370,7 +369,7 @@ ing elit, sed do eiusmod .</p>
     </section>
 
 
-    <section id="get-in-touch">
+    <section id="contato">
         <div class="container">
             <div class="section-header">
             <br> <br><br>
@@ -417,7 +416,7 @@ ing elit, sed do eiusmod .</p>
                                     <input type="text" required placeholder="Assunto" class="form-control" name="subject">
                                 </div>
                                 <div class="form-group">
-                                    <textarea required placeholder="Mensagem	" rows="8" class="form-control" name="message"></textarea>
+                                    <textarea required placeholder="Mensagem    " rows="8" class="form-control" name="message"></textarea>
                                 </div>
                                 <button class="btn btn-primary" type="Enviar">Enviar</button>
               </form>
@@ -451,9 +450,9 @@ ing elit, sed do eiusmod .</p>
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
-	<script src="js/scrolling-nav.js"></script>
+    <script src="js/scrolling-nav.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
-    <script type="text/javascript" src="js/language.js"></script>
+    <script type="text/javascript" src="js/dropdown.js"></script>
 <script>
 
     $(document).ready(function($) {
@@ -462,9 +461,9 @@ ing elit, sed do eiusmod .</p>
 
     $("body").data("page", "frontpage");
 
-$("#owl-example").owlCarousel({ 
+$("#owl-example").owlCarousel({
         items:3,   
-/*        itemsDesktop : [1199,3],
+/*      itemsDesktop : [1199,3],
         itemsDesktopSmall : [980,9],
         itemsTablet: [768,5],
         itemsTabletSmall: false,

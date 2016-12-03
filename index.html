@@ -54,19 +54,30 @@
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="#home">Inicio </a></li>
                         <li class="scroll"><a href="#sobre">Sobre </a></li>
-                        <li class="scroll"><a href="#produtos">Nossos Produtos</a></li>
+                        <li class="scroll">
+                            <div class="product-dropdown">
+                                <button onclick="dropDownProducts()" class="dropbtn" id="product">
+                                Nossos Produtos
+                                </button>
+                                    <div id="products" class="product-content">
+                                        <a href="#produtos">Linha de produtos</a>
+                                        <a href="products/mangueiras.html">Mangueiras</a>
+                                        <a href="products/filtragem.html">Hidráulica</a>
+                                        <a href="products/pneumatica.html">Pneumática</a>
+                                        <a href="products/acessorios.html">Acessórios</a>
+                                    </div>
+                            </div>
+                        </li>
+                        
                         <li class="scroll"><a href="#local"> Localização </a></li>
                         <li class="scroll"><a href="#contato">Fale conosco</a></li>
-                        </ul>
-
-                        <ul class="nav navbar-nav">
+                            
                         <li class="scroll">
-                            <p>
-                            <div class="dropdown">
-                                <button onclick="myFunction()" class="dropbtn" id="language">
+                            <div class="language-dropdown">
+                                <button onclick="dropDownLanguages()" class="dropbtn" id="language">
                                 PT-BR
                                 </button>
-                                    <div id="myDropdown" class="dropdown-content">
+                                    <div id="languages" class="language-content">
                                         <a href="index.html">
                                             <img border="0" alt="PT-BR" src="images/icons/br.png" width="35" height="23.5">
                                             PT-BR
@@ -78,7 +89,6 @@
                                         </a>
                                     </div>
                             </div>
-                            </p>
                         </li>
                        
                     </ul>
@@ -301,7 +311,7 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
                         <div class="team-img">
-                            <a class="" href="products/filtragem3.html"><img src="images/filtragem3.jpg" alt="">
+                            <a class="" href="products/filtragem.html"><img src="images/filtragem3.jpg" alt="">
                             </a>
                         </div>
                       <div class="team-info">
@@ -442,7 +452,7 @@
     <script src="js/main.js"></script>
 	<script src="js/scrolling-nav.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
-    <script type="text/javascript" src="js/language.js"></script>
+    <script type="text/javascript" src="js/dropdown.js"></script>
 <script>
 
     $(document).ready(function($) {
