@@ -9,7 +9,7 @@
 	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/language.css" rel="stylesheet">
+    <link href="css/dropdown.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.transitions.css" rel="stylesheet">
@@ -55,7 +55,7 @@
                         <li class="scroll active"><a href="#home">Inicio </a></li>
                         <li class="scroll"><a href="#sobre">Sobre </a></li>
                         <li class="scroll">
-                            <div class="product-dropdown">
+                            <div class="product-dropdown" style="z-index: 2;">
                                 <button onclick="dropDownProducts()" class="dropbtn" id="product">
                                 Nossos Produtos
                                 </button>
@@ -69,11 +69,11 @@
                             </div>
                         </li>
                         
-                        <li class="scroll"><a href="#local"> Localização </a></li>
-                        <li class="scroll"><a href="#contato">Fale conosco</a></li>
+                        <li class="scroll" style="z-index: 1;"><a href="#local"> Localização </a></li>
+                        <li class="scroll" style="z-index: 1;"><a href="#contato">Fale conosco</a></li>
                             
                         <li class="scroll">
-                            <div class="language-dropdown">
+                            <div class="language-dropdown" style="z-index: 1;">
                                 <button onclick="dropDownLanguages()" class="dropbtn" id="language">
                                 PT-BR
                                 </button>
