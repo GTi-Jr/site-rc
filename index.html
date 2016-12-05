@@ -54,11 +54,11 @@
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="#home">Inicio </a></li>
                         <li class="scroll"><a href="#sobre">Sobre </a></li>
-                        <li class="scroll">
-                            <div class="product-dropdown" style="z-index: 2;">
-                                <button onclick="dropDownProducts()" class="dropbtn" id="product">
+                        <li class="scroll" style="z-index: 2">
+      <!--                       <div class="product-dropdown" style="z-index: 2;"> -->
+                                <a onclick="dropDownProducts()" class="dropbtn" id="product">
                                 Nossos Produtos
-                                </button>
+                                </a>
                                     <div id="products" class="product-content">
                                         <a href="#produtos">Linha de produtos</a>
                                         <a href="products/mangueiras.html">Mangueiras</a>
@@ -66,17 +66,17 @@
                                         <a href="products/pneumatica.html">Pneumática</a>
                                         <a href="products/acessorios.html">Acessórios</a>
                                     </div>
-                            </div>
+                            <!-- </div> -->
                         </li>
                         
                         <li class="scroll" style="z-index: 1;"><a href="#local"> Localização </a></li>
                         <li class="scroll" style="z-index: 1;"><a href="#contato">Fale conosco</a></li>
                             
-                        <li class="scroll">
-                            <div class="language-dropdown" style="z-index: 1;">
-                                <button onclick="dropDownLanguages()" class="dropbtn" id="language">
+                        <li class="scroll" style="z-index: 1;">
+                  <!--           <div class="language-dropdown" style="z-index: 1;"> -->
+                                <a onclick="dropDownLanguages()" class="dropbtn" id="language">
                                 PT-BR
-                                </button>
+                                </a>
                                     <div id="languages" class="language-content">
                                         <a href="index.html">
                                             <img border="0" alt="PT-BR" src="images/icons/br.png" width="35" height="23.5">
@@ -88,7 +88,7 @@
                                             EN
                                         </a>
                                     </div>
-                            </div>
+                            <!-- </div> -->
                         </li>
                        
                     </ul>
