@@ -1,0 +1,24 @@
+.category img {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+}
+
+.category{
+  padding-top: 10px;
+  float: left;
+  padding-left: 20px;
+  opacity: 1;
+}
+
+.category img:hover {
+   -webkit-filter: brightness(40%);
+}
+
+.category h3:hover{
+color:blue;
+}
+
+.team-img{
+padding-left: 25px;
+}
