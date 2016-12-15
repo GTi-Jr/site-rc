@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -39,10 +39,6 @@
 <body id="home" class="homepage">
 
     <header id="header">
-        <nav class="navbar navbar-fixed-top top-nav">
-          <li class="scroll active"><a href="#home">Inicio </a></li>
-        </nav>
-
         <nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -79,19 +75,23 @@
                         <li class="scroll" style="z-index: 1;"><a href="#clients">Clientes</a></li>
                         <li class="scroll" style="z-index: 1;"><a href="#local"> Localização </a></li>
                         <li class="scroll" style="z-index: 1;"><a href="#contato">Fale conosco</a></li>
-
                         <li class="scroll" style="z-index: 1;">
-                          <a href="index.html">
-                              <img border="0" alt="PT-BR" src="images/icons/br.png" width="17.5" height="11.75">
-                              PT-BR
-                          </a>
-                        </li>
+                  <!--           <div class="language-dropdown" style="z-index: 1;"> -->
+                                <a onclick="dropDownLanguages()" class="dropbtn" id="language">
+                                PT-BR
+                                </a>
+                                    <div id="languages" class="language-content">
+                                        <a href="index.html">
+                                            <img border="0" alt="PT-BR" src="images/icons/br.png" width="35" height="23.5">
+                                            PT-BR
+                                        </a>
 
-                        <li class="scroll" style="z-index: 1;">
-                          <a href="index.en.html">
-                              <img border="0" alt="EN" src="images/icons/uk.png" width="17.5" height="11.75">
-                              EN
-                          </a>
+                                        <a href="index.en.html">
+                                            <img border="0" alt="EN" src="images/icons/uk.png" width="35" height="23.5">
+                                            EN
+                                        </a>
+                                    </div>
+                            <!-- </div> -->
                         </li>
 
                     </ul>
@@ -114,6 +114,7 @@
                                   <p><span class="style15">
                                     A CEJN é um grupo Sueco, com mais de 60 anos de experiência e presença global,provedor de componentes e sistemas de alto desempenho para todos os tipos de aplicação, desde ar comprimido até gás, equipamentos para ar respirável, fluidos e óleo hidráulico.</span>
                                   <br><br>
+                                </span>
 
                                     <a class="btn btn-primary btn-lg" href="#produtos"><span class="style6"></span>Conheça nossos produtos</a>
                                 </div>
@@ -168,7 +169,7 @@
         </div><!--/.item-->
 
         </div>
-        <!--/.owl-carousel-->
+<!--/.owl-carousel-->
        </section><!--/#main-slider-->
 
 

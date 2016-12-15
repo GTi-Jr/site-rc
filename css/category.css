@@ -40,6 +40,12 @@ color:blue;
   min-width: 290px;
 }
 
+@media (max-width: 978px) {
+    .super-category {
+      padding-left: 15%;
+    }
+}
+
 .super-category img:hover {
    -webkit-filter: saturate(10);
 }
