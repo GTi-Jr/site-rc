@@ -3,6 +3,8 @@
   height: 150px;
   border-radius: 150px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .category{
@@ -21,8 +23,9 @@ color:blue;
 }
 
 .super-category img {
-  width: 280px;
-  height: 280px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
   border-radius: 150px;
   display: block;
   margin-left: auto;
@@ -32,8 +35,9 @@ color:blue;
 .super-category{
   float: left;
   opacity: 1;
-  width: 290px;
-  height: 290px;
+  width: auto;
+  height: auto;
+  min-width: 290px;
 }
 
 .super-category img:hover {
