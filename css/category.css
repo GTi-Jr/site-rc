@@ -34,7 +34,8 @@
 
 
 .super-category img:hover {
-   -webkit-filter: saturate(10);
+   opacity: 0.7;
+
 }
 
 .super-category h3:hover{
