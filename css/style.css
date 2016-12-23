@@ -1,22 +1,29 @@
 #tstm_sec .owl-controls .owl-dot {
-background-color : #fff;
-border : none medium;
-border-radius : 5px;
-cursor : pointer;
-display : inline-block;
-height : 6px;
-text-indent : 0;
-width : 25px;
-margin-right : 5px;
+  background-color : #fff;
+  border : none medium;
+  border-radius : 5px;
+  cursor : pointer;
+  display : inline-block;
+  height : 6px;
+  text-indent : 0;
+  width : 25px;
+  margin-right : 5px;
 }
+
 #tstm_sec .owl-controls .owl-dot.active {
-background-color : #03B0F0;
+  background-color : #03B0F0;
 }
+
 #tstm_sec .owl-controls {
-display : inline-block;
-width : 100%;
-text-align : center;
+  display : inline-block;
+  width : 100%;
+  text-align : center;
 }
+
 #tstm_sec .owl-controls .owl-nav {
-display : none;
+  display : none;
+}
+
+.media-left, .media-right, .media-body {
+  display: block;
 }
