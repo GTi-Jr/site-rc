@@ -20,3 +20,12 @@ text-align : center;
 #tstm_sec .owl-controls .owl-nav {
 display : none;
 }
+.owl-item .sngl_clt a {
+text-align : left;
+width : 100%;
+display : inline-block;
+margin-left : 40px;
+}
+.owl-item .sngl_clt img {
+width : 100px;
+}
