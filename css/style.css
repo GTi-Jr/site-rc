@@ -27,3 +27,6 @@
 .media-left, .media-right, .media-body {
   display: block;
 }
+
+#main-slider .owl-prev { left:  0 }
+#main-slider .owl-next { right: 0 }
