@@ -12,3 +12,11 @@ margin-right : 5px;
 #tstm_sec .owl-controls .owl-dot.active {
 background-color : #03B0F0;
 }
+#tstm_sec .owl-controls {
+display : inline-block;
+width : 100%;
+text-align : center;
+}
+#tstm_sec .owl-controls .owl-nav {
+display : none;
+}
