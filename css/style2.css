@@ -62,7 +62,7 @@ section.top-w3ls {
 }
 /*-- top bar --*/
 .top-bar {
-    background-color: #FF6347;
+    background-color: red;
     padding: 17px 0;
 		color: black;
 }
@@ -150,9 +150,9 @@ a.navbar-brand {
     z-index: 999;
     padding: 0;
     display: block;
-    background-color: #000!important;
+    background-color: #fff!important;
     width: 195px;
-    height: 130px;
+    height: 127px;
     top: -56px;
 	text-align:center;
 }
