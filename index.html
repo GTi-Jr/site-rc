@@ -16,7 +16,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/category.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!-- <link href="css/responsive.css" rel="stylesheet"> -->
+    <link href="css/style2.css" rel="stylesheet">
     <link href="css/clients-slider.css" rel="stylesheet">
 	  <link rel="stylesheet" href="css/footer.css">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -39,62 +39,78 @@
 
 </head><!--/head-->
 
-
 <body id="home" class="homepage">
 
     <header id="header">
-        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+      <section class="top-w3ls">
+<!-- top bar -->
+<div class="top-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-7 top-w3ls1">
+        <p class="top-p1">Produtos e serviços hidráulicos e pneumáticos.</p>
+      </div>
+      <div class="col-lg-5 col-md-5 top-w3ls2">
+        <ul class="top-contacts">
+          <li class="top-hover"><p style="color:blue;"><span class="glyphicon glyphicon-envelope" style="color:black;"></span> <a href="mailto:contato@rchidro.com.br">contato@rchidro.com.br</a></p></li>
+          <li class="top-unhover"><p><span class="glyphicon glyphicon-phone-alt" style="color:black;"></span> (85) 3033-9600</p></li>
 
-                </div>
+          <li class="top-unhover"><a href="index.en.html"><img alt="Change language" src="images/icons/uk.png" width="50%"></a></li>
 
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Inicio </a></li>
-                        <li class="scroll"><a href="#sobre">Sobre </a></li>
-                        <li class="scroll"><a href="#history">Nossa História </a></li>
-                        <li class="scroll" style="z-index: 2">
-      <!--                       <div class="product-dropdown" style="z-index: 2;"> -->
-                                <a onclick="dropDownProducts()" class="dropbtn" id="product">
-                                Nossos Produtos
-                                </a>
-                                    <div id="products" class="product-content">
-                                        <a href="#produtos">Linha de produtos</a>
-                                        <a href="produtos/hidraulica.html">Hidráulica</a>
-                                        <a href="produtos/pneumatica.html">Pneumática</a>
-                                        <a href="produtos/mangueiras.html">Mangueiras</a>
-                                        <a href="produtos/acessorios.html">Acessórios</a>
-                                    </div>
-                            <!-- </div> -->
-                        </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-                        <li class="scroll" style="z-index: 1;"><a href="#clients">Clientes</a></li>
-                        <li class="scroll" style="z-index: 1;"><a href="#local"> Localização </a></li>
-                        <!-- <li class="scroll" style="z-index: 1;"><a href="#contact">Fale conosco</a></li> -->
-                        <li class="scroll" style="z-index: 1;">
+<!-- /top bar -->
+<!-- navigation -->
+<div class="navbar-wrapper">
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+          <h1><img src="images/logo.png" width="80%" height="80%"></h1>
 
-                        <li class="scroll" style="z-index: 1;">
-                        <a href="index.html"><img border="0" alt="PT-BR" src="images/icons/br.png" width="35" height="23.5"></a>
-                        </li>
-                        <li class="scroll" style="z-index: 1;">
-                        <a href="index.en.html"><img border="0" alt="EN" src="images/icons/uk.png" width="35" height="23.5"></a>
-                        </li>
-                      </ul>
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#history">Nossa História</a></li>
+            <li class="dropdown" style="cursor:pointer;">
+              <a class="dropdown-toggle" data-toggle="dropdown">Nossos Produtos
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#products">Linha de produtos</a></li>
+                <li><a href="produtos/hidraulica.html">Hidráulica</a></li>
+                <li><a href="produtos/pneumatica.html">Pneumática</a></li>
+                <li><a href="produtos/mangueiras.html">Mangueiras</a></li>
+                <li><a href="produtos/acessorios.html">Acessórios</a></li>
+              </ul>
+            </li>
+            <li><a href="#clients">Clientes</a></li>
+            <li><a href="#local">Localização</a></li>
+            <li><a href="#contact">Contato</a></li>
 
-                </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-            </div><!--/.container-->
-        </nav><!--/nav-->
+  </div>
+</div>
+</section>
     </header><!--/header-->
-
+    <br><br>
     <section id="main-slider">
         <div class="owl-carousel">
             <div class="item" style="background-image: url(images/bg3.jpg);">
@@ -166,12 +182,12 @@
        </section><!--/#main-slider-->
 
 
+  <br>
+	<section id="about">
 
-	<section id="sobre">
         <div class="container">
-
             <div class="section-header">
-            <br>
+
                 <h2 class="section-title text-center wow fadeInDown">Um pouco sobre a gente</h2>
                 <p class="text-center wow fadeInDown">
                   Com a experiência de quem atua à 15 anos no mercado a RC Hidropneumática
@@ -226,12 +242,11 @@
                     </div><!--/.col-md-4-->
         </div><!--/.container-->
     </section><!--/#sobre-->
-
+    <br><br><br><br>
     <section id="history">
         <div class="container">
 
-            <div class="section-header"><br><br><br>
-            <br>
+            <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Nossa História</h2>
                 <p class="texto">
 
@@ -286,11 +301,11 @@
             </div>
         </div>
     </section><!--/#animated-number-->
-
-    <section id="produtos">
+    <br><br><br><br>
+    <section id="products">
 
         <div class="container">
-            <div class="section-header"> <br><br><br><br>
+            <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Linha de produtos</h2>
                 <p class="text-center wow fadeInDown">Clique e conheça mais sobre nossos produtos</p>
             </div>
@@ -382,11 +397,12 @@
           </div>
 
     </section><!--/#clients-->
+<br><br><br><br>
 <section id="clients">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-        <div class="section-header"> <br><br><br><br>
+        <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown">Nossos Clientes</h2>
             <p class="text-center wow fadeInDown">Arraste lateralmente para ver mais</p>
         </div>
@@ -491,10 +507,10 @@
 .map {position: relative;overflow: hidden;}
 .map iframe {max-width: 100%;max-height: 40%;}
 </style>
-
+    <br><br><br><br>
     <section id="local">
 
-            <div class="section-header"> <br><br><br><br>
+            <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Nosso endereço</h2>
                 <p class="text-center wow fadeInDown">Encontre a nossa empresa no mapa</p>
             </div>
@@ -567,7 +583,7 @@
 
 
 
-  <footer id="" class="footer-distributed">
+  <footer id="contact" class="footer-distributed">
 
 			<div class="footer-left">
         <img src="images/logo.png" alt="RC-Hidropneumática">
