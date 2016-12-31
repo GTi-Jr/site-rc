@@ -7,7 +7,6 @@
     <meta name="author" content="">
     <title>RC Hidropneumática</title>
 	<!-- core CSS -->
-    <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/dropdown.css" rel="stylesheet">
@@ -16,6 +15,8 @@
     <link href="css/owl.transitions.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/category.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
     <link href="css/clients-slider.css" rel="stylesheet">
 	  <link rel="stylesheet" href="css/footer.css">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -26,7 +27,7 @@
     <![endif]-->
 
     <style type="text/css">
-    <!--
+
     .style6 {color: #000000}
     .style13 {
 	  font-size: 18px;
@@ -34,67 +35,82 @@
 	  font-weight: bold;
     }
     .style15 {color: #FFFFFF; font-size: 18px; font-weight: bold; }
-    -->
     </style>
 
 </head><!--/head-->
 
-
 <body id="home" class="homepage">
 
     <header id="header">
-        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.en.html"><img src="images/logo.png" alt="logo"></a>
+      <section class="top-w3ls">
+<!-- top bar -->
+<div class="top-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-7 top-w3ls1">
+        <p class="top-p1">HYDRAULIC AND PNEUMATIC PRODUCTS AND SERVICES.</p>
+      </div>
+      <div class="col-lg-5 col-md-5 top-w3ls2">
+        <ul class="top-contacts">
+          <li class="top-hover"><p style="color:blue;"><span class="glyphicon glyphicon-envelope" style="color:black;"></span> <a href="mailto:contato@rchidro.com.br">contato@rchidro.com.br</a></p></li>
+          <li class="top-unhover"><p><span class="glyphicon glyphicon-phone-alt" style="color:black;"></span> (85) 3033-9600</p></li>
 
-                </div>
+          <li class="top-unhover"><a href="index.html"><img alt="Change language" src="images/icons/br.png" width="50%"></a></li>
 
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">Home </a></li>
-                        <li class="scroll"><a href="#sobre">About Us</a></li>
-                        <li class="scroll"><a href="#history">Our History</a></li>
-                        <li class="scroll" style="z-index: 2">
-      <!--                       <div class="product-dropdown" style="z-index: 2;"> -->
-                                <a onclick="dropDownProducts()" class="dropbtn" id="product">
-                                Our Products
-                                </a>
-                                    <div id="products" class="product-content">
-                                        <a href="#produtos">Product Line</a>
-                                        <a href="produtos/hidraulica.en.html">Hydraulics</a>
-                                        <a href="produtos/pneumatica.en.html">Pneumatic</a>
-                                        <a href="produtos/mangueiras.en.html">Hoses</a>
-                                        <a href="produtos/acessorios.en.html">Accessories</a>
-                                    </div>
-                            <!-- </div> -->
-                        </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-                        <li class="scroll" style="z-index: 1;"><a href="#clients">Clients</a></li>
-                        <li class="scroll" style="z-index: 1;"><a href="#local"> Localization</a></li>
-                        <!-- <li class="scroll" style="z-index: 1;"><a href="#contact">Fale conosco</a></li> -->
-                        <li class="scroll" style="z-index: 1;">
+<!-- /top bar -->
+<!-- navigation -->
+<div class="navbar-wrapper">
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+          <h1><img src="images/logo.png" width="80%" height="80%"></h1>
 
-                        <li class="scroll" style="z-index: 1;">
-                        <a href="index.html"><img border="0" alt="PT-BR" src="images/icons/br.png" width="35" height="23.5"></a>
-                        </li>
-                        <li class="scroll" style="z-index: 1;">
-                        <a href="index.en.html"><img border="0" alt="EN" src="images/icons/uk.png" width="35" height="23.5"></a>
-                        </li>
-                      </ul>
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#history">Our History</a></li>
+            <li class="dropdown" style="cursor:pointer;">
+              <a class="dropdown-toggle" data-toggle="dropdown">Our Products
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#products">Product Line</a></li>
+                <li><a href="produtos/hidraulica.html">Hydraulic</a></li>
+                <li><a href="produtos/pneumatica.html">Pneumatic</a></li>
+                <li><a href="produtos/mangueiras.html">Hoses</a></li>
+                <li><a href="produtos/acessorios.html">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#local">Localization</a></li>
+            <li><a href="#contact">Contact</a></li>
 
-                </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-            </div><!--/.container-->
-        </nav><!--/nav-->
-    </header><!--/header-->
-
+      </div>
+    </div>
+  </section>
+</header><!--/header-->
+<br><br>
     <section id="main-slider">
         <div class="owl-carousel">
             <div class="item" style="background-image: url(images/bg3.jpg);">
@@ -126,8 +142,11 @@
                         <div class="row">
                             <div class="col-sm-12 text-center">
                                 <div class="carousel-content">
-                                  <br> <br><br><br><br><br><br><br><br>                                   <p><span class="style15">A HYDAC oferece um extenso programa de fornecimento de produtos da hidráulica, da técnica de comandos eletrônicos, da técnica
-                                  e solenoides, sensores reguladores assim como sensores de fluido, monitoramento de condições e produtos de tratamentos de fluidos. </span>
+                                  <br> <br><br><br><br><br><br><br><br><p><span class="style15">
+                                    A HYDAC oferece um extenso programa de fornecimento de produtos<br>
+                                    da hidráulica, da técnica de comandos eletrônicos, da técnica<br>
+                                    de solenoides, sensores reguladores assim como sensores de fluido,<br>
+                                    monitoramento de condições e produtos de tratamentos de fluidos. </span>
                                   <br><br>
 
                                     <a class="btn btn-primary btn-lg" href="#produtos"><span class="style6"></span>Conheça nossos produtos</a>
@@ -167,7 +186,7 @@
 
 
 
-	<section id="sobre">
+	<section id="about">
         <div class="container">
 
             <div class="section-header">
@@ -224,11 +243,11 @@
                     </div><!--/.col-md-4-->
         </div><!--/.container-->
     </section><!--/#sobre-->
-
+    <br><br><br>
     <section id="history">
         <div class="container">
 
-            <div class="section-header"><br><br><br>
+            <div class="section-header">
             <br>
                 <h2 class="section-title text-center wow fadeInDown">Our History</h2>
                 <p class="">
@@ -284,11 +303,11 @@ Morbi feugiat erat sit amet elit pharetra laoreet. Curabitur egestas ultricies t
             </div>
         </div>
     </section><!--/#animated-number-->
-
+    <br><br><br>
     <section id="produtos">
 
         <div class="container">
-            <div class="section-header"> <br><br><br><br>
+            <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Product Line</h2>
                 <p class="text-center wow fadeInDown">Click and learn more about our products</p>
             </div>
@@ -356,12 +375,12 @@ Morbi feugiat erat sit amet elit pharetra laoreet. Curabitur egestas ultricies t
           </div>
     </section><!--/#produtos-->
 
-
+     <br><br><br>
     <section id="clients">
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-            <div class="section-header"> <br><br><br><br>
+            <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Our Clients</h2>
                 <p class="text-center wow fadeInDown">Drag sideways to see more</p>
             </div>
@@ -466,10 +485,10 @@ Morbi feugiat erat sit amet elit pharetra laoreet. Curabitur egestas ultricies t
     .map {position: relative;overflow: hidden;}
     .map iframe {max-width: 100%;max-height: 40%;}
     </style>
-
+    <br><br><br>
     <section id="local">
 
-            <div class="section-header"> <br><br><br><br>
+            <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Our Address</h2>
                 <p class="text-center wow fadeInDown">Find our company on the map</p>
             </div>
@@ -542,7 +561,7 @@ Morbi feugiat erat sit amet elit pharetra laoreet. Curabitur egestas ultricies t
 
 
 
-  <footer id="" class="footer-distributed">
+  <footer id="contact" class="footer-distributed">
 
 			<div class="footer-left">
         <img src="images/logo.png" alt="RC-Hidropneumática">
