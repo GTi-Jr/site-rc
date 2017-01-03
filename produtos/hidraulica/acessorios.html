@@ -116,10 +116,15 @@
     function vtoggler(){
       document.getElementById('catalog').style = 'display:none;';
       document.getElementById('vision').style = 'display:block;';
+      document.getElementById('box1').style = 'background-color: #FF3333; text-decoration: none; font-size: 110%;';
+      document.getElementById('box2').style = 'background-color: #d3d3d3; text-decoration: none';
+
     }
     function ctoggler(){
       document.getElementById('catalog').style = 'display:block;';
       document.getElementById('vision').style = 'display:none;';
+      document.getElementById('box2').style = 'background-color: #FF3333; text-decoration: none; font-size: 110%;';
+      document.getElementById('box1').style = 'background-color: #d3d3d3; text-decoration: none';
     }
     </script>
     <br><br><br>
@@ -127,16 +132,16 @@
 
         <div class="container">
             <div class="" style="padding-left:3%;"> <br>
-                <h1 class="wow fadeInDown">Acessórios</h1>
+                <h1 class="wow fadeInDown">Acessórios</h1><br>
 
             </div>
             <div class="row" style="padding-left:3%;">
               <div class="op">
-                  <div class="box" onclick="vtoggler()">
+                  <div id="box1"class="box" onclick="vtoggler()">
                     <p align="center">Visão Geral</p>
                   </div>
 
-                  <div class="box" onclick="ctoggler()">
+                  <div id="box2" class="box" onclick="ctoggler()">
                     <p align="center">Catálogo</p>
                   </div>
 
