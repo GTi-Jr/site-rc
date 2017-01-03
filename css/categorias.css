@@ -6,12 +6,13 @@
 }
 .col-xs-4 .foo{
   display: block;
-  margin-left: 30%;
+  margin-left: 35%;
   margin-right: auto;
   width: auto;
   height: 25px;
   border: 1px solid rgba(0, 0, 0, .2);
   margin-top: 10px;
+  cursor:pointer;
 }
 
 .col-xs-4 .foo p{
