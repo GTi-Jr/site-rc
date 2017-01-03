@@ -1,0 +1,27 @@
+.col-xs-4 img{
+  width: 75%;
+  display: block;
+  margin-left: 30%;
+  margin-right: auto;
+}
+.col-xs-4 .foo{
+  display: block;
+  margin-left: 30%;
+  margin-right: auto;
+  width: auto;
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin-top: 10px;
+}
+
+.col-xs-4 .foo p{
+  color: gray;
+}
+
+
+.col-xs-4 p:hover{
+  background-color: #FF3333;
+  text-decoration: none;
+  font-size: 110%;
+  color:white;
+}
