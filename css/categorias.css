@@ -27,6 +27,10 @@
   border-radius: 10px 10px;
 }
 
+.hidden {
+     display: block;
+}
+
 .col-xs-4 .foo p{
   color: black;
 }
