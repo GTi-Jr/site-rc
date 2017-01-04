@@ -1,12 +1,6 @@
-.jk-slider{
-  width:100%;
-}
-/*          Hero Headers        */
-/********************************/
 .hero {
-
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   z-index: 3;
   color: #fff;
