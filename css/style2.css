@@ -1,0 +1,36 @@
+.top-box{
+  background-color: #ff3333;
+  display: block;
+  float: left;
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+
+@media only screen and (min-width: 990px) {
+
+   .top-box p{
+      text-align: center;
+      padding-right: 15%;
+   }
+}
+.top-box .col2{
+  margin-top: 10px;
+  padding-left: 12%;
+}
+.top-box .col-md-6{
+  margin-top: 10px;
+}
+.top-box .col-md-6 p{
+  text-align: center;
+}
+
+.top-box ul{
+  list-style: none;
+
+}
+.top-box li{
+  display: inline;
+  float: left;
+  margin-left: 5%;
+}

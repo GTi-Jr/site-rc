@@ -42,7 +42,8 @@
 
 /* Change color of dropdown links on hover */
 .product-content a:hover {
-    background-color: #000
+    background-color: #ff3333;
+    color: #fff;
 }
 
 
