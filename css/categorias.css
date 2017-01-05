@@ -35,9 +35,8 @@
   color:white;
 }
 
-
 .col-xs-4 .foo p{
-  color: black;;
+  color: black;
 }
 
 ul{
@@ -57,7 +56,6 @@ padding-left:5%;
   margin-right: auto;
   width: 100%;
   height: 25px;
-  border: 1px solid rgba(0, 0, 0, .2);
   cursor:pointer;
 }
 
