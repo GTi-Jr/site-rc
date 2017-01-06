@@ -11,12 +11,11 @@
 
    .top-box p{
       text-align: center;
-      padding-right: 15%;
+      padding-right: 22%;
    }
 }
 .top-box .col2{
   margin-top: 10px;
-  padding-left: 12%;
 }
 .top-box .col-md-6{
   margin-top: 10px;
@@ -27,10 +26,30 @@
 
 .top-box ul{
   list-style: none;
-
 }
-.top-box li{
+
+/*.top-box li{
   display: inline;
   float: left;
   margin-left: 5%;
+}*/
+
+.top-box a{
+  font-size: 100%;
+  color: #fff;
+  padding-left: 5%;
+}
+
+@media only screen and (max-width: 990px) {
+
+   .top-box a{
+     font-size: 70%;
+   }
+}
+
+@media only screen and (min-width: 990px) {
+
+   .top-box .col2{
+     padding-left: 7%;
+   }
 }
