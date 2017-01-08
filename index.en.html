@@ -41,75 +41,83 @@
 
 <body id="home" class="homepage">
 
-    <header id="header">
-      <section class="top-w3ls">
-<!-- top bar -->
-<div class="top-bar">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7 col-md-7 top-w3ls1">
-        <p class="top-p1">HYDRAULIC AND PNEUMATIC PRODUCTS AND SERVICES.</p>
-      </div>
-      <div class="col-lg-5 col-md-5 top-w3ls2">
-        <ul class="top-contacts">
-          <li class="top-hover"><p style="color:blue;"><span class="glyphicon glyphicon-envelope" style="color:black;"></span> <a href="mailto:contato@rchidro.com.br">contato@rchidro.com.br</a></p></li>
-          <li class="top-unhover"><p><span class="glyphicon glyphicon-phone-alt" style="color:black;"></span> (85) 3033-9600</p></li>
-
-          <li class="top-unhover"><a href="index.html"><img alt="Change language" src="images/icons/br.png" width="50%"></a></li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- /top bar -->
-<!-- navigation -->
-<div class="navbar-wrapper">
-  <div class="container">
-    <nav class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">
-          <h1><img src="images/logo.png" width="80%" height="80%"></h1>
-
-          </a>
+  <header id="header">
+    <nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="banner">
+  <div class="top-navbar">
+      <div class="top-box">
+        <div class="col-md-6">
+          <p align="left">Hydraulic and pneumatic products and services.</p>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#history">Our History</a></li>
-            <li class="dropdown" style="cursor:pointer;">
-              <a class="dropdown-toggle" data-toggle="dropdown">Our Products
-              <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#products">Product Line</a></li>
-                <li><a href="produtos/hidraulica.html">Hydraulic</a></li>
-                <li><a href="produtos/pneumatica.html">Pneumatic</a></li>
-                <li><a href="produtos/mangueiras.html">Hoses</a></li>
-                <li><a href="produtos/acessorios.html">Accessories</a></li>
-              </ul>
-            </li>
-            <li><a href="#clients">Clients</a></li>
-            <li><a href="#local">Localization</a></li>
-            <li><a href="#contact">Contact</a></li>
 
-          </ul>
+          <div class="col-md-6 col2">
+            <!-- <ul> -->
+              <!-- <li> -->
+                <a href="mailto:contato@rchidro.com.br" style="color:#fff;">
+                  <img alt="Mail" src="images/icons/mail.png" width="5%">
+                  contato@rchidro.com.br
+                </a>
+              <!-- </li> -->
+
+              <!-- <li> -->
+                <a><img src="images/icons/phone.png" alt="Phone" width="5%">
+                (85) 3033-9600</a>
+              <!-- </li> -->
+
+              <!-- <li> -->
+                <a href="index.html">
+                  <img alt="Change language" src="images/icons/br.png" width="6%">
+                </a>
+              <!-- </li> -->
+            <!-- </ul> -->
+          </div>
         </div>
       </div>
-    </nav>
 
-      </div>
-    </div>
-  </section>
-</header><!--/header-->
+                <div class="container">
+
+                  <span class="icon-bar"></span>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+
+                    </div>
+
+                    <div class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li class="scroll active"><a href="#home">Home </a></li>
+                            <li class="scroll"><a href="#about">About Us </a></li>
+                            <li class="scroll"><a href="#history">Our History</a></li>
+                            <li class="scroll" style="z-index: 2">
+          <!--                       <div class="product-dropdown" style="z-index: 2;"> -->
+                                    <a onclick="dropDownProducts()" class="dropbtn" id="product">
+                                    Our Products
+                                    </a>
+                                        <div id="products" class="product-content">
+                                            <a href="#produtos">Product Line</a>
+                                            <a href="produtos/hidraulica/acessorios.html">Hydraulics</a>
+                                            <a href="produtos/pneumatica.html">Pneumatic</a>
+                                            <a href="produtos/mangueiras.html">Hoses</a>
+                                            <a href="produtos/acessorios.html">Accessories</a>
+                                        </div>
+                                <!-- </div> -->
+                            </li>
+
+                            <li class="scroll" style="z-index: 1;"><a href="#clients">Clients</a></li>
+                            <li class="scroll" style="z-index: 1;"><a href="#local"> Localization </a></li>
+                            <li class="scroll" style="z-index: 1;"><a href="#contact"> Contact </a></li>
+                            <!-- <li class="scroll" style="z-index: 1;"><a href="#contact">Fale conosco</a></li> -->
+
+                          </ul>
+
+                    </div>
+
+                </div><!--/.container-->
+            </nav><!--/nav-->
+        </header><!--/header-->
 <br><br>
     <section id="main-slider">
         <div class="owl-carousel">
@@ -184,13 +192,10 @@
 <!--/.owl-carousel-->
        </section><!--/#main-slider-->
 
-
-
 	<section id="about">
         <div class="container">
 
-            <div class="section-header">
-            <br>
+            <div class="section-header"><br><br><br><br><br><br>
                 <h2 class="section-title text-center wow fadeInDown">A little about us</h2>
                 <p class="text-center wow fadeInDown">
                   With the experience of those who work for 15 years in the market, RC Hidropneumática
@@ -247,8 +252,7 @@
     <section id="history">
         <div class="container">
 
-            <div class="section-header">
-            <br>
+            <div class="section-header"><br><br><br><br><br><br>
                 <h2 class="section-title text-center wow fadeInDown">Our History</h2>
                 <p class="">
 
@@ -303,25 +307,26 @@ Morbi feugiat erat sit amet elit pharetra laoreet. Curabitur egestas ultricies t
             </div>
         </div>
     </section><!--/#animated-number-->
-    <br><br><br>
     <section id="produtos">
 
         <div class="container">
-            <div class="section-header">
+            <div class="section-header"><br><br><br><br><br><br>
                 <h2 class="section-title text-center wow fadeInDown">Product Line</h2>
                 <p class="text-center wow fadeInDown">Click and learn more about our products</p>
             </div>
 
-            <div class="row">
-              <div class="super-category">
-                  <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                      <div class="team-img">
-                          <a class="" href="produtos/hidraulica.en.html">
+            <div class="" align="center">
+              <div class="col-sm-3">
+                  <div class="prod">
+                      <div class="">
+                          <a class="" href="produtos/hidraulica/acessorios.html">
                             <img src="images/products/hidraulica.png" alt="">
                           </a>
                       </div>
-                      <div class="team-info">
+                      <div class="">
+                        <a class="" href="produtos/hidraulica/acessorios.html">
                           <h5 align="center">Hydraulics</h5>
+                        </a>
                           <!-- <span>Cilindros, válvulas e conexões</span> -->
                       </div>
 
@@ -329,42 +334,46 @@ Morbi feugiat erat sit amet elit pharetra laoreet. Curabitur egestas ultricies t
 
               </div>
 
-                <div class="super-category">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="team-img">
-                            <a class="" href="produtos/pneumatica.en.html">
+                <div class="col-sm-3">
+                    <div class="prod">
+                        <div class="">
+                            <a class="" href="produtos/pneumatica.html">
                               <img src="images/products/pneumatica.png" alt=""></a>
                         </div>
-                        <div class="team-info">
-                            <h5 align="center">Pneumatic</h5>
+                        <div class="">
+                          <a class="" href="produtos/pneumatica.html">
+                            <h5 align="center">Pneumatic</h5></a>
                             <!-- <span>Cilindros, válvulas e conexões</span> -->
                         </div>
 
                     </div>
                 </div>
 
-                <div class="super-category">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="team-img">
-                            <a class="" href="produtos/mangueiras.en.html">
+                <div class="col-sm-3">
+                    <div class="prod">
+                        <div class="">
+                            <a class="" href="produtos/mangueiras.html">
                               <img src="images/products/mangueiras.png" alt=""></a>
                         </div>
-                        <div class="team-info">
+                        <div class="">
+                          <a class="" href="produtos/mangueiras.html">
                             <h5 align="center">Hoses</h5>
+                          </a>
                             <!-- <span>Cilindros, válvulas e conexões</span> -->
                         </div>
 
                     </div>
                 </div>
 
-                <div class="super-category">
-                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="team-img">
-                            <a class="" href="produtos/acessorios.en.html">
+                <div class="col-sm-3">
+                    <div class="prod">
+                        <div class="">
+                            <a class="" href="produtos/acessorios.html">
                               <img src="images/products/acessorios.jpg" alt=""></a>
                         </div>
-                        <div class="team-info">
-                            <h5 align="center">Accessories</h5>
+                        <div class="">
+                          <a class="" href="produtos/acessorios.html">
+                            <h5 align="center">Accessories</h5></a>
                             <!-- <span>Cilindros, válvulas e conexões</span> -->
                         </div>
 
@@ -375,128 +384,129 @@ Morbi feugiat erat sit amet elit pharetra laoreet. Curabitur egestas ultricies t
           </div>
     </section><!--/#produtos-->
 
-     <br><br><br>
     <section id="clients">
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Our Clients</h2>
+            <div class="section-header"><br><br><br><br><br><br>
+                <h2 class="section-title text-center wow fadeInDown">Our clients.</h2>
                 <p class="text-center wow fadeInDown">Drag sideways to see more</p>
             </div>
-    				<div class="al_clt">
-    					<div class="sngl_clt">
-    						<a><img src="images/clients/aeris.png" alt=""/></a>
-    					</div>
-    					<div class="sngl_clt">
-    						<a><img src="images/clients/cemag.png" alt=""/></a>
-    					</div>
-    					<div class="sngl_clt">
-    						<a><img src="images/clients/cerbras.png" alt=""/></a>
-    					</div>
-    					<div class="sngl_clt">
-    						<a><img src="images/clients/danone.png" alt=""/></a>
-    					</div>
-    					<div class="sngl_clt">
-    						<a><img src="images/clients/durametal.png" alt=""/></a>
-    					</div>
-    					<div class="sngl_clt">
-    						<a><img src="images/clients/gerdau.png" alt=""/></a>
-    					</div>
-    					<div class="sngl_clt">
-    						<a><img src="images/clients/jbs.png" alt=""/></a>
-    					</div>
-    					<div class="sngl_clt">
-    						<a><img src="images/clients/magnesita.png" alt=""/></a>
-    					</div>
-    					<div class="sngl_clt">
-    						<a><img src="images/clients/magnesium.png" alt=""/></a>
-    					</div>
-              <div class="sngl_clt">
-    						<a><img src="images/clients/maracanaugeradora.png" alt=""/></a>
-    					</div>
-              <div class="sngl_clt">
-    						<a><img src="images/clients/mdiasbranco.png" alt=""/></a>
-    					</div>
-              <div class="sngl_clt">
-    						<a><img src="images/clients/mills.png" alt=""/></a>
-    					</div>
-              <div class="sngl_clt">
-    						<a><img src="images/clients/nacionalgas.png" alt=""/></a>
-    					</div>
-              <div class="sngl_clt">
-    						<a><img src="images/clients/vestas.png" alt=""/></a>
-    					</div>
+            <script src="js/jssor.slider-22.0.15.min.js" type="text/javascript" data-library="jssor.slider" data-version="22.0.15"></script>
+        <script type="text/javascript">
+            jssor_1_slider_init = function() {
 
-    				</div>
-    			</div>
+                var jssor_1_options = {
+                  $AutoPlay: true,
+                  $Idle: 0,
+                  $AutoPlaySteps: 4,
+                  $SlideDuration: 3500,
+                  $SlideEasing: $Jease$.$Linear,
+                  $PauseOnHover: 4,
+                  $SlideWidth: 200,
+                  $Cols: 7
+                };
+
+                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                /*responsive code begin*/
+                /*you can remove responsive code if you don't want the slider scales while window resizing*/
+                function ScaleSlider() {
+                    var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                    if (refSize) {
+                        refSize = Math.min(refSize, 809);
+                        jssor_1_slider.$ScaleWidth(refSize);
+                    }
+                    else {
+                        window.setTimeout(ScaleSlider, 30);
+                    }
+                }
+                ScaleSlider();
+                $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                /*responsive code end*/
+            };
+        </script>
+
+        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 980px; height: 100px; overflow: hidden; visibility: hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                <div style="position:absolute;display:block;background:url('images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            </div>
+            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 980px; height: 100px; overflow: hidden; margin-left:10px;">
+                <div>
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/aeris.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/cemag.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/cerbras.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/danone.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/durametal.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/gerdau.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/jbs.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/magnesita.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/magnesium.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/maracanaugeradora.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/mdiasbranco.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/mills.png" />
+                </div>
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/nacionalgas.png" />
+                </div>
+
+                <div style="display:none;">
+                    <img data-u="image" style="padding-left:20px;" src="images/clients/vestas.png" />
+                </div>
+
+
+            </div>
+        </div>
+        <script type="text/javascript">jssor_1_slider_init();</script>
+        <!-- #endregion Jssor Slider End -->
+      </div>
+
     		</div>
     	</div>
-    </section><!-- clients -->
-    <!-- start our teastimonial Section -->
-    <br>
-    <section id="tstm_sec">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-lg-12">
-    				<div class="all_tstm">
 
-    				<div class="clnt_tstm">
-    					<div class="sngl_tstm">
-    						<i class="fa fa-quote-right"></i>
-    						<h3>Proatividade</h3>
-    						<p>Depoimento do fulano de tal sobre a parceiria que tem com a rc que será resumido e colocado aqui para passar credibilidade aos futuros clientes</p>
-    						<h6>Hydac - Fulano de tal</h6>
-    					</div>
-    				</div>
+    </section><!-- clients -->    <!-- start our teastimonial Section -->
 
-    				<div class="clnt_tstm">
-    					<div class="sngl_tstm">
-    						<i class="fa fa-quote-right"></i>
-    						<h3>Algum titulo</h3>
-    						<p>Depoimento de sicrano de tal sobre a parceiria que tem com a rc que será resumido e colocado aqui para passar credibilidade aos futuros clientes</p>
-    						<h6> CEJN - Sicrano de tal</h6>
-    					</div>
-    				</div>
-    				<div class="clnt_tstm">
-    					<div class="sngl_tstm">
-    						<i class="fa fa-quote-right"></i>
-    						<h3>Outro titulo interessante</h3>
-    						<p>Depoimento do fulano de tal sobre a parceiria que tem com a rc que será resumido e colocado aqui para passar credibilidade aos futuros clientes</p>
-    						<h6> Tobias- Manuli</h6>
-    					</div>
-    				</div>
-    				<div class="clnt_tstm">
-    					<div class="sngl_tstm">
-    						<i class="fa fa-quote-right"></i>
-    						<h3> Mesmo dos anteriorios</h3>
-    						<p>Depoimento do fulano de tal sobre a parceiria que tem com a rc que será resumido e colocado aqui para passar credibilidade aos futuros clientes</p>
-    						<h6> Camozzi - Mesclado de tal</h6>
-    					</div>
-    				</div>
-
-    			</div>
-    		</div>
-    	</div>
-    </section>
-    <!-- End our teastimonial Section -->
-
-    <style>
-    .map {position: relative;overflow: hidden;}
-    .map iframe {max-width: 100%;max-height: 40%;}
+    <style media="screen">
+      .google-maps iframe{
+        width: 100%;
+      }
     </style>
-    <br><br><br>
-    <section id="local">
+    <section class="mapa"  id="local"><br><br><br><br><br><br>
 
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Our Address</h2>
                 <p class="text-center wow fadeInDown">Find our company on the map</p>
             </div>
-        <div id="map">
+        <div class="google-maps">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.0250489720847!2d-38.57483215018072!3d-3.804662197218643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74dd763dfcfe7%3A0xa448657f03bdeb35!2sRC+Hidropneum%C3%A1tica!5e0!3m2!1spt-BR!2sus!4v1482799132181" width="1280" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </section>
-
 <!--
     <section id="contato">
         <div class="container">

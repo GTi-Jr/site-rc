@@ -1,3 +1,14 @@
+.col2 img:hover{
+  opacity:0.5; 
+}
+
+@media only screen and (min-widht:500px, max-width: 990px) {
+
+   .mb3 p{
+     padding-left: 100px;
+   }
+}
+
 .top-box{
   background-color: #ff3333;
   display: block;
