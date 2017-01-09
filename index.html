@@ -21,8 +21,8 @@
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/categorias.css" rel="stylesheet">
 	  <link rel="stylesheet" href="css/footer.css">
-	  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"> -->
-	  <!-- <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css"> -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -500,83 +500,56 @@
 </section><!-- clients -->
 <!-- start our teastimonial Section -->
 <br>
-<section class="jk-slider">
-    <div id="carousel-example" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example" data-slide-to="1"></li>
-    <li data-target="#carousel-example" data-slide-to="2"></li>
-    <li data-target="#carousel-example" data-slide-to="3"></li>
-  </ol>
+<section id="carousel">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+                <div class="quote"><i class="fa fa-quote-left fa-3x"></i></div>
+				<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+				  <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+				    <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+				    <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
+            <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+				  </ol>
+				  <!-- Carousel items -->
+				  <div class="carousel-inner">
+				    <div class="item">
+            	<blockquote>
+                <h3>Satisfação</h3>
+                <p>Ótimo atendimento, vasta opção de produtos industriais.</p><br>
+						    <h5>Pedro Vieira</h5>
+				    	</blockquote>
+				    </div>
+				    <div class="item">
+              <blockquote>
+                <h3>Vasta gama de produtos</h3>
+                <p>Tudo que se possa imaginar em produtos para
+                  equipamentos pneumáticos. Funcionários prestativos.</p>
+                <h5>Carlos André</h5>
+				    	</blockquote>
+				    </div>
+				    <div class="active item">
+              <blockquote>
+                <h3>Excelência no atendimento</h3>
+                <p>Ótimo atendimento. Ótimos profissionais, muito qualificados.</p><br>
+                <h5>Gilmar Nascimento</h5>
+              </blockquote>
+				    </div>
 
-  <div class="carousel-inner" style="height: 350px;" >
-
-    <div class="item active">
-    <div class="hero">
-        <hgroup>
-            <h3>Satisfação</h3><br>
-            <p>Ótimo atendimento, vasta opção de produtos industriais.</p><br>
-						<h6>Pedro Vieira</h6>
-        </hgroup>
-
-      </div>
-      <div class="overlay"></div>
-     <a href="#"><img src="images/bg4.jpg" /></a>
-
-    </div>
-  <div class="item">
-  	<div class="hero">
-        <hgroup>
-          <h3>Vasta gama de produtos</h3><br>
-          <p>Tudo que se possa imaginar em produtos para
-          equipamentos pneumáticos. Funcionários prestativos.</p><br>
-          <h6>Carlos André</h6>
-        </hgroup>
-
-      </div>
-
-       <div class="overlay"></div>
-      <a href="#"><img src="images/bg4.jpg" /></a>
-
-    </div>
-    <div class="item">
-    	<div class="hero">
-        <hgroup>
-          <h3>Excelência no atendimento</h3><br>
-          <p>Ótimo atendimento. Ótimos profissionais, muito qualificados.</p><br>
-          <h6>Gilmar Nascimento</h6>
-        </hgroup>
-
-      </div>
-      	<div class="overlay"></div>
-      <a href="#"><img src="images/bg4.jpg" /></a>
-
-    </div>
-
-    <div class="item">
-      <div class="hero">
-        <hgroup>
-          <h3>Rapidez e eficiência</h3><br>
-					<p>Bom atendimento. Serviços rápidos!</p><br>
-					<h6>Nonato Sousa</h6>
-        </hgroup>
-
-      </div>
-        <div class="overlay"></div>
-      <a href="#"><img src="images/bg4.jpg" /></a>
-
-    </div>
-
-  </div>
-
-  <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
-
+            <div class="item">
+              <blockquote>
+                <h3>Rapidez e eficiência</h3>
+                <p>Bom atendimento. Serviços rápidos!</p><br>
+                <h5>Nonato Sousa</h5>
+              </blockquote>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
     <style media="screen">
