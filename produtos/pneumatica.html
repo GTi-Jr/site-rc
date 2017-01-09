@@ -14,7 +14,9 @@
     <link href="../css/owl.carousel.css" rel="stylesheet">
     <link href="../css/owl.transitions.css" rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/style2.css" rel="stylesheet">
     <link href="../css/category.css" rel="stylesheet">
+    <link href="../css/categorias.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/footer.css">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	  <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
@@ -22,154 +24,207 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-
-    <style type="text/css">
-    <!--
-    .style6 {color: #000000}
-    .style13 {
-	  font-size: 18px;
-	  color: #000000;
-	  font-weight: bold;
-    }
-    .style15 {color: #FFFFFF; font-size: 18px; font-weight: bold; }
-    -->
-    </style>
-
 </head><!--/head-->
 
 
 <body>
   <header id="header">
-      <nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="banner">
+  <nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="banner">
+  <div class="top-navbar">
+      <div class="top-box">
+        <div class="col-md-6">
+          <p align="left">Produtos e serviços hidráulicos e pneumáticos.</p>
+        </div>
+
+          <div class="col-md-6 col2">
+            <!-- <ul> -->
+              <!-- <li> -->
+                <a href="mailto:contato@rchidro.com.br" style="color:#fff;">
+                  <img alt="Mail" src="../images/icons/mail.png" width="5%">
+                  contato@rchidro.com.br
+                </a>
+              <!-- </li> -->
+
+              <!-- <li> -->
+                <a><img src="../images/icons/phone.png" alt="Phone" width="5%">
+                (85) 3033-9600</a>
+              <!-- </li> -->
+
+              <!-- <li> -->
+                <a href="pneumatica.en.html">
+                  <img alt="Change language" src="../images/icons/uk.png" width="6%">
+                </a>
+              <!-- </li> -->
+            <!-- </ul> -->
+          </div>
+        </div>
+      </div>
+
+                <div class="container">
+
+                  <span class="icon-bar"></span>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="logo"></a>
+
+                    </div>
+
+                    <div class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li class="scroll active"><a href="../index.html#home">Inicio </a></li>
+                            <li class="scroll"><a href="../index.html#about">Sobre </a></li>
+                            <li class="scroll"><a href="../index.html#history">Nossa História </a></li>
+                            <li class="scroll" style="z-index: 2">
+          <!--                       <div class="product-dropdown" style="z-index: 2;"> -->
+                                    <a onclick="dropDownProducts()" class="dropbtn" id="product">
+                                    Nossos Produtos
+                                    </a>
+                                        <div id="products" class="product-content">
+                                            <a href="../index.html#produtos">Linha de produtos</a>
+                                            <a href="hidraulica/acessorios.html">Hidráulica</a>
+                                            <a href="#">Pneumática</a>
+                                            <a href="mangueiras.html">Mangueiras</a>
+                                            <a href="acessorios.html">Acessórios</a>
+                                        </div>
+                                <!-- </div> -->
+                            </li>
+
+                            <li class="scroll" style="z-index: 1;"><a href="../index.html#clients">Clientes</a></li>
+                            <li class="scroll" style="z-index: 1;"><a href="../index.html#local"> Localização </a></li>
+                            <li class="scroll" style="z-index: 1;"><a href="../index.html#contact"> Contato </a></li>
+                            <!-- <li class="scroll" style="z-index: 1;"><a href="#contact">Fale conosco</a></li> -->
+
+                          </ul>
+
+                    </div>
+
+                </div><!--/.container-->
+            </nav><!--/nav-->
+        </header><!--/header-->
+      <br><br>
+      <script type="text/javascript">
+      function vtoggler(){
+
+        document.getElementById('catalog').style = 'display:none;';
+        document.getElementById('vision').style = 'display:block;';
+        document.getElementById('box1').style = 'background-color: #FF3333; text-decoration: none; font-size: 110%;';
+        document.getElementById('box2').style = 'background-color: #FFF; text-decoration: none';
+        document.getElementById('p2').style = 'color:#000;';
+        document.getElementById('p1').style = 'color:#fff;';
+
+      }
+      function ctoggler(){
+        document.getElementById('catalog').style = 'display:block;';
+        document.getElementById('vision').style = 'display:none;';
+        document.getElementById('box2').style = 'background-color: #FF3333; text-decoration: none; font-size: 110%;';
+        document.getElementById('box1').style = 'background-color: #FFF; text-decoration: none';
+        document.getElementById('p1').style = 'color:#000;';
+        document.getElementById('p2').style = 'color:#fff;';
+      }
+      </script>
+
+      <section id="acessorios">
+
           <div class="container">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="logo"></a>
 
-              </div>
+                <div class="col-md-8">
+                  <div class=""> <br>
+                      <h1 class="wow fadeInDown">Pneumática</h1><br>
 
-              <div class="collapse navbar-collapse navbar-right">
-                  <ul class="nav navbar-nav">
-                      <li class="scroll active"><a href="../index.html#home">Inicio </a></li>
-                      <li class="scroll"><a href="../index.html#sobre">Sobre </a></li>
-                      <li class="scroll"><a href="../index.html#history">Nossa História </a></li>
-                      <li class="scroll" style="z-index: 2">
-    <!--                       <div class="product-dropdown" style="z-index: 2;"> -->
-                              <a onclick="dropDownProducts()" class="dropbtn" id="product">
-                              Nossos Produtos
-                              </a>
-                                  <div id="products" class="product-content">
-                                      <a href="../index.html#produtos">Linha de produtos</a>
-                                      <a href="hidraulica.html">Hidráulica</a>
-                                      <a href="pneumatica.html">Pneumática</a>
-                                      <a href="mangueiras.html">Mangueiras</a>
-                                      <a href="acessorios.html">Acessórios</a>
-                                  </div>
-                          <!-- </div> -->
-                      </li>
+                  </div>
+                  <div class="row">
+                    <div class="op">
+                        <div id="box1"class="box" onclick="vtoggler()" style="background-color: #FF3333; text-decoration: none; font-size: 110%;">
+                          <p id = "p1" style="color: #fff;" align="center">Visão Geral</p>
+                        </div>
 
-                      <li class="scroll" style="z-index: 1;"><a href="../index.html#clients">Clientes</a></li>
-                      <li class="scroll" style="z-index: 1;"><a href="../index.html#local"> Localização </a></li>
-                      <!-- <li class="scroll" style="z-index: 1;"><a href="#contact">Fale conosco</a></li> -->
-                      <li class="scroll" style="z-index: 1;">
+                        <div id="box2" class="box" onclick="ctoggler()">
+                          <p id = "p2" align="center">Catálogo</p>
+                        </div>
 
-                      <li class="scroll" style="z-index: 1;">
-                      <a href="pneumatica.html"><img border="0" alt="PT-BR" src="../images/icons/br.png" width="35" height="23.5"></a>
-                      </li>
-                      <li class="scroll" style="z-index: 1;">
-                      <a href="pneumatica.en.html"><img border="0" alt="EN" src="../images/icons/uk.png" width="35" height="23.5"></a>
-                      </li>
+                    </div>
+                  </div>
+                  <br>
 
+                <div id="vision">
+                  <h4>Cilindros / Atuadores pneumáticos</h4>
+                  A RC Hidropneumática oferece uma grande variedade
+                  de cilindros para as mais diversas aplicações no
+                  setor industrial.<br>
+                    <strong>Nossa Gama:</strong>
+                    <ul>
+                      <li>Cilindros Padrão Internacional (ISO)</li>
+                      <li>Cilindros Compactos</li>
+                      <li>Cilindros em aço inox</li>
+                      <li>Cilindros com haste guiada</li>
+                      <li>Cilindros Rotativos</li>
+                      <li>Cilindros sem-haste</li>
+                      <li>Sensores de Proximidade</li>
+                      <li>Garras Pneumáticas</li>
+                    </ul>
+                  <h4>Elementos de fixação</h4>
+                  <h4>Amortecedores de impacto</h4>
+                  <h4>Vácuo</h4>
+                  <h4>Válvulas Penumáticas</h4>
+                  <strong>Nossa Gama:</strong>
+                    <ul>
+                      <li>Válvulas Solenoides 2/2 - 3/2
+                        acionadas direta e
+                        indiretamente</li>
+                      <li>Válvulas Solenoides</li>
+                      <li>Válvulas de Ilha</li>
+                      <li>Válvulas Mecânicas e Manuais</li>
+                      <li>Válvulas Lógicas</li>
+                      <li>Válvulas automáticas</li>
+                      <li>Válvulas reguladoras de fluxo</li>
+                      <li>Válvulas de controle proporcional</li>
+                    </ul>
+                  <h4>Unidade de Tratamento</h4>
+                  O ar-comprimido deve ser tratado de forma adequada antes de abastecer
+                  qualquer sistema pneumático, para evitar desgaste prematuro de componentes e
+                  equipamentos. A linha de produtos da Camozzi, ofertados pela RC
+                  Hidropneumática possuem alta qualidade e eficiência para deixar o ar-comprimido
+                  dentro dos padrões de consumo.<br>
+
+                  <strong>Nossa gama:</strong>
+                  <ul>
+                  <li>Filtros coalescentes</li>
+                  <li>Reguladores de pressão</li>
+                  <li>Lubrificadores Filtro-Reguladores</li>
+                  <li>Válvulas de isolamento bloqueável</li>
+                  <li>Válvulas de partida suave</li>
+                  <li>Acessórios</li>
+                  <li>Unidades FRL (Filtro –
+                  Regulador – Lubrificador)</li>
+                  <li>Reguladores de pressão para
+                    blocos manifold</li>
                   </ul>
+                  <h4>Tubos e Conexões Pneumáticas</h4>
+                  <strong>Nossa gama:</strong>
+                  <ul>
+                  <li>Conexões rápidas</li>
+                  <li>Conexões para tubos com aperto por porca</li>
+                  <li>Conexões Universais</li>
+                  <li>Engates Rápidos</li>
+                  <li>Tubos de Poliuretano (PU)</li>
+                  <li>Tubos de Poliamida (PA)</li>
+                </ul>
+                </div>
 
+                <div id="catalog" style="display:none;">
+                  Aqui o catálogo será adicionado.
+                </div>
               </div>
 
-          </div><!--/.container-->
-      </nav><!--/nav-->
-  </header><!--/header-->
 
-    <section id="hidraulica">
-
-        <div class="container">
-            <div class="section-header"> <br>
-                <h2 class="section-title text-center wow fadeInDown">Pneumática</h2>
-                <p class="text-center wow fadeInDown">Conheça mais sobre nossos produtos</p>
-            </div>
-            <style media="screen">
-            </style>
-
-
-            <div class="row" style="padding-left:3%;">
-              <h4>Cilindros / Atuadores pneumáticos</h4>
-              A RC Hidropneumática oferece uma grande variedade
-              de cilindros para as mais diversas aplicações no
-              setor industrial.<br>
-                <strong>Nossa Gama:</strong>
-                <ul>
-                  <li>Cilindros Padrão Internacional (ISO)</li>
-                  <li>Cilindros Compactos</li>
-                  <li>Cilindros em aço inox</li>
-                  <li>Cilindros com haste guiada</li>
-                  <li>Cilindros Rotativos</li>
-                  <li>Cilindros sem-haste</li>
-                  <li>Sensores de Proximidade</li>
-                  <li>Garras Pneumáticas</li>
-                </ul>
-              <h4>Elementos de fixação</h4>
-              <h4>Amortecedores de impacto</h4>
-              <h4>Vácuo</h4>
-              <h4>Válvulas Penumáticas</h4>
-              <strong>Nossa Gama:</strong>
-                <ul>
-                  <li>Válvulas Solenoides 2/2 - 3/2
-                    acionadas direta e
-                    indiretamente</li>
-                  <li>Válvulas Solenoides</li>
-                  <li>Válvulas de Ilha</li>
-                  <li>Válvulas Mecânicas e Manuais</li>
-                  <li>Válvulas Lógicas</li>
-                  <li>Válvulas automáticas</li>
-                  <li>Válvulas reguladoras de fluxo</li>
-                  <li>Válvulas de controle proporcional</li>
-                </ul>
-              <h4>Unidade de Tratamento</h4>
-              O ar-comprimido deve ser tratado de forma adequada antes de abastecer
-              qualquer sistema pneumático, para evitar desgaste prematuro de componentes e
-              equipamentos. A linha de produtos da Camozzi, ofertados pela RC
-              Hidropneumática possuem alta qualidade e eficiência para deixar o ar-comprimido
-              dentro dos padrões de consumo.<br>
-
-              <strong>Nossa gama:</strong>
-              <ul>
-              <li>Filtros coalescentes</li>
-              <li>Reguladores de pressão</li>
-              <li>Lubrificadores Filtro-Reguladores</li>
-              <li>Válvulas de isolamento bloqueável</li>
-              <li>Válvulas de partida suave</li>
-              <li>Acessórios</li>
-              <li>Unidades FRL (Filtro –
-              Regulador – Lubrificador)</li>
-              <li>Reguladores de pressão para
-                blocos manifold</li>
-              </ul>
-              <h4>Tubos e Conexões Pneumáticas</h4>
-              <strong>Nossa gama:</strong>
-              <ul>
-              <li>Conexões rápidas</li>
-              <li>Conexões para tubos com aperto por porca</li>
-              <li>Conexões Universais</li>
-              <li>Engates Rápidos</li>
-              <li>Tubos de Poliuretano (PU)</li>
-              <li>Tubos de Poliamida (PA)</li>
-            </ul>
-            </div><br><br>
-       </div>
-    </section><!--/#produtos-->
+              <div class="col-md-4 categoria" style="margin-top:4%;">
+                <img src="../images/products/pneumatica.png" alt="">
+              </div>
+      </section><!--/#produtos-->
 
     <footer id="" class="footer-distributed">
 
@@ -177,17 +232,17 @@
           <img src="../images/logo.png" alt="RC-Hidropneumática">
 
   				<p class="footer-links">
-  					<a href="#home">Home</a>
+  					<a href="../index.html#home">Home</a>
   					·
-  					<a href="#sobre">Sobre</a>
+  					<a href="../index.html#sobre">Sobre</a>
   					·
-  					<a href="#history">História</a>
+  					<a href="../index.html#history">História</a>
   					·
-  					<a href="#produtos">Produtos</a>
+  					<a href="../index.html#produtos">Produtos</a>
   					·
-  					<a href="#clients">Clientes</a>
+  					<a href="../index.html#clients">Clientes</a>
   					·
-  					<a href="#local">Localização</a>
+  					<a href="../index.html#local">Localização</a>
             <!-- ·
             <a href="#contato">Contato</a> -->
   				</p>
@@ -250,5 +305,6 @@
     <script src="../js/scrolling-nav.js"></script>
     <script type="text/javascript" src="../js/map.js"></script>
     <script type="text/javascript" src="../js/dropdown.js"></script>
+
   </body>
 </html>
