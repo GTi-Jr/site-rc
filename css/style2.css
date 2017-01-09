@@ -71,7 +71,7 @@
 /*-------------------------------*/
 
 .quote {
-  color: rgba(0,0,0,.1);
+  color: #ff3333;
   text-align: center;
 
 }
@@ -97,7 +97,7 @@ opacity: 1;
 }
 
 #fade-quote-carousel.carousel .carousel-indicators > li {
-background-color: #e84a64;
+background-color: #ff3333;
 border: none;
 }
 #fade-quote-carousel blockquote {

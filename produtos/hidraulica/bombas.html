@@ -43,32 +43,32 @@
 <body>
   <header id="header">
     <nav id="main-menu" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="banner">
-  <div class="top-navbar" >
+  <div class="top-navbar">
       <div class="top-box">
         <div class="col-md-6">
           <p align="left">Produtos e serviços hidráulicos e pneumáticos.</p>
         </div>
 
           <div class="col-md-6 col2">
-            <ul>
-              <li>
+            <!-- <ul> -->
+              <!-- <li> -->
                 <a href="mailto:contato@rchidro.com.br" style="color:#fff;">
-                  <!-- <img alt="Mail" src="images/icons/mail.png" width="5%"> -->
+                  <img alt="Mail" src="../../images/icons/mail.png" width="5%">
                   contato@rchidro.com.br
                 </a>
-              </li>
+              <!-- </li> -->
 
-              <li>
-                <!-- <img src="images/icons/phone.png" alt="Phone" width="5%"> -->
-                (85) 3033-9600
-              </li>
+              <!-- <li> -->
+                <a><img src="../../images/icons/phone.png" alt="Phone" width="5%">
+                (85) 3033-9600</a>
+              <!-- </li> -->
 
-              <li>
+              <!-- <li> -->
                 <a href="../../index.en.html">
-                  <img alt="Change language" src="../../images/icons/uk.png" width="50%">
+                  <img alt="Change language" src="../../images/icons/uk.png" width="6%">
                 </a>
-              </li>
-            </ul>
+              <!-- </li> -->
+            <!-- </ul> -->
           </div>
         </div>
       </div>
@@ -118,24 +118,29 @@
                 </div><!--/.container-->
             </nav><!--/nav-->
         </header><!--/header-->
+      <br><br>
 
+      <script type="text/javascript">
+      function vtoggler(){
 
-    <script type="text/javascript">
-    function vtoggler(){
-      document.getElementById('catalog').style = 'display:none;';
-      document.getElementById('vision').style = 'display:block;';
-      document.getElementById('box1').style = 'background-color: #FF3333; text-decoration: none; font-size: 110%;';
-      document.getElementById('box2').style = 'background-color: #FFF; text-decoration: none';
+        document.getElementById('catalog').style = 'display:none;';
+        document.getElementById('vision').style = 'display:block;';
+        document.getElementById('box1').style = 'background-color: #FF3333; text-decoration: none; font-size: 110%;';
+        document.getElementById('box2').style = 'background-color: #FFF; text-decoration: none';
+        document.getElementById('p2').style = 'color:#000;';
+        document.getElementById('p1').style = 'color:#fff;';
 
-    }
-    function ctoggler(){
-      document.getElementById('catalog').style = 'display:block;';
-      document.getElementById('vision').style = 'display:none;';
-      document.getElementById('box2').style = 'background-color: #FF3333; text-decoration: none; font-size: 110%;';
-      document.getElementById('box1').style = 'background-color: #FFF; text-decoration: none';
-    }
-    </script>
-    <br><br><br>
+      }
+      function ctoggler(){
+        document.getElementById('catalog').style = 'display:block;';
+        document.getElementById('vision').style = 'display:none;';
+        document.getElementById('box2').style = 'background-color: #FF3333; text-decoration: none; font-size: 110%;';
+        document.getElementById('box1').style = 'background-color: #FFF; text-decoration: none';
+        document.getElementById('p1').style = 'color:#000;';
+        document.getElementById('p2').style = 'color:#fff;';
+      }
+      </script>
+
     <section id="hidraulica">
 
         <div class="container">
@@ -147,11 +152,11 @@
                 <div class="row">
                   <div class="op">
                       <div id="box1"class="box" onclick="vtoggler()" style="background-color: #FF3333; text-decoration: none; font-size: 110%;">
-                        <p align="center">Visão Geral</p>
+                        <p id = "p1" style="color: #fff;" align="center">Visão Geral</p>
                       </div>
 
                       <div id="box2" class="box" onclick="ctoggler()">
-                        <p align="center">Catálogo</p>
+                        <p id="p2" align="center">Catálogo</p>
                       </div>
 
                   </div>
