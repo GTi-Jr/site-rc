@@ -1,3 +1,14 @@
+@media (min-width: 768px) and (max-width: 1200px) {
+  .navbar-header {
+    width: 15%;
+    position: relative;
+    overflow: auto;
+  }
+  .navbar-header img{
+
+  }
+}
+
 .col2 img:hover{
   opacity:0.5;
 }

@@ -32,9 +32,9 @@
 
     .style6 {color: #000000}
     .style13 {
-	  font-size: 18px;
-	  color: #000000;
-	  font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
     }
     .style15 {color: #FFFFFF; font-size: 18px; font-weight: bold; }
     </style>
@@ -83,7 +83,8 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                      <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="logo"></a>
 
                   </div>
 
@@ -420,7 +421,7 @@
             function ScaleSlider() {
                 var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
                 if (refSize) {
-                    refSize = Math.min(refSize, 809);
+                    refSize = Math.min(refSize, 1500);
                     jssor_1_slider.$ScaleWidth(refSize);
                 }
                 else {
