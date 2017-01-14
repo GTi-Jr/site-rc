@@ -13,6 +13,13 @@
   opacity:0.5;
 }
 
+.col2 img{
+  width: 3%;
+}
+.flag img {
+  width: 5%;
+}
+
 @media only screen and (min-widht:500px, max-width: 990px) {
 
    .mb3 p{
