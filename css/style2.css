@@ -1,3 +1,21 @@
+.sendButton {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3333',GradientType=0);
+	background-color:#ff3333;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:13px;
+	padding:8px 12px;
+	text-decoration:none;
+  float: right;
+}
+.sendButton:hover {
+	background-color:#ff5555;
+}
+
 @media (min-width: 768px) and (max-width: 1200px) {
   .navbar-header {
     width: 15%;
