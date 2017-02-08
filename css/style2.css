@@ -1,3 +1,7 @@
+.fornecedores img{
+	padding-left: 10%;
+}
+
 .sendButton {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3333',GradientType=0);
 	background-color:#ff3333;
