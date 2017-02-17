@@ -105,7 +105,7 @@ Mensagem: $mensagem","FROM:$nome<$email>");
 
                   <div class="collapse navbar-collapse navbar-right">
                       <ul class="nav navbar-nav">
-                          <li class="scroll active"><a href="#home">Inicio </a></li>
+                          <li class="scroll active"><a href="#home">Início </a></li>
                           <li class="scroll"><a href="#about">Sobre </a></li>
                           <li class="scroll"><a href="#history">Nossa História </a></li>
                           <li class="scroll" style="z-index: 2">
