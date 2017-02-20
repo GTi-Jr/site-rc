@@ -194,7 +194,7 @@ Mensagem: $mensagem","FROM:$nome<$email>");
 
 				<p class="footer-company-about">
 					<span>Sobre a empresa</span>
-          A RC Hidropneumática se destaca pela prestanção de serviços e a distribuição de materiais hidráulicos e pneumáticos de qualidade.
+          A RC Hidropneumática se destaca pela prestação de serviços e a distribuição de materiais hidráulicos e pneumáticos de qualidade.
 				</p>
 
         <div class="footer-icons">
