@@ -155,9 +155,9 @@ Mensagem: $mensagem","FROM:$nome<$email>");
 					·
 					<a href="#sobre">Sobre</a>
 					·
-					<a href="#history">História</a>
+					<a href="#history">Nossa História</a>
 					·
-					<a href="#produtos">Produtos</a>
+					<a href="#produtos">Nossos Produtos</a>
 					·
 					<a href="#clients">Clientes</a>
 					·
